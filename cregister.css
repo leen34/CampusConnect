@@ -1,0 +1,63 @@
+body{
+    background-color: #b49ef5/*#CBD5E1*/;
+}
+h1{
+    text-align: center;
+    color: #23325a;
+    font-family: Cambria, Georgia ;
+}
+h2{
+    color:#23325a;
+     text-align: center;
+}
+fieldset{
+    width: 850px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    /*align-items: center;
+    justify-content: center;*/
+}
+input[type="text"] {
+    width: 400px;
+    height: 20px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgb(213, 219, 225);
+    margin-bottom: 15px;
+}
+.field {
+    display: flex;
+    flex-direction: column; /* يخلي label فوق input */
+}
+.left, .right {
+    width: 45%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* يبعدهم عن بعض */
+    gap: 50px;
+}
+.right{
+    font-size: 25px;
+    color: #23325a;
+}
+label{
+    color:#23325a
+}
+button{
+    background-color: #7C3AED;
+    color:white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+}

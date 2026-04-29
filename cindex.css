@@ -1,0 +1,79 @@
+.navgbar{
+    display:flex;
+    justify-content: space-between;
+    background-color: #7C3AED/*#2563EB*/;
+    color: #d4d7db/*azure*/;
+    padding: 12px;
+    align-items: center;
+    font-family: poppins;
+    font-size: 20px;
+}
+body{
+    background-image: url("unistudents.webp");
+    background-repeat: no-repeat;
+    background-position: 800px 250px;
+    background-color: #b49ef5/*#CBD5E1*/;
+}
+h1{
+    font-size:80px;
+    padding-left: 50px;
+    margin-top: 130px;
+    color: #23325a;
+}
+p{
+    font-size:20px;
+    padding-left: 50px;
+    /*margin-top: 130px;*/
+    color: #23325a;
+}
+h4{
+    font-size:30px;
+    padding-left: 50px;
+    margin-top: 40px;
+    color: #23325a;
+}
+a{
+    color:#d4d7db;
+    text-decoration: none;
+}
+fieldset{
+    border-color: #b49ef5;
+    padding: 0px;
+}
+h2{
+    text-indent: 50px;
+    color:#23325a
+}
+
+.events-section{
+   background-color: #7C3AED;
+   padding: 60px;
+   text-align: center;
+}
+
+.events-section h2{
+   color: #23325a;
+   margin-bottom: 40px;
+   font-size: 32px;
+}
+
+.cards{
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+}
+
+.card{
+   background-color: #b49ef5;
+   width: 250px;
+   padding: 25px;
+   border-radius: 15px;
+}
+
+.card h3{
+   color: white;
+}
+
+.card p{
+   color: #7e7d7d;
+}

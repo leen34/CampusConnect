@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link href="cregister.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Event Registration:</h1><br/>
+        <fieldset><form>
+            <h2>Registration Form</h2><br/><br/>
+            <div class="container">
+            <div class="left">
+                <div class="field">
+                    <label for="fname">Full Name</label><br/>
+                    <input type="text" id="fname" name="fname" placeholder="Your Name">
+                </div><br/>
+
+                <div class="field">
+                    <label for="id">Student ID</label><br/>
+                    <input type="text" id="id" name="id" placeholder="Your ID">
+                </div><br/>
+            
+            <div class="field">
+                <label for="email">Email</label><br/>
+                <input type="text" id="email" name="email" placeholder="Your Email">
+            </div></div>
+            <div class="right">
+            <p>Choose the events you want to join:</p>
+            <form>
+                <input type="checkbox" name="event" id="event1" value="Teach workshop">
+                <label for="tw">Teach workshop</label><br>
+                <input type="checkbox" name="event" id="event2" value="CV Writing Workshop">
+                <label for="cv">CV Writing Workshop</label><br>
+                <input type="checkbox" name="event" id="event3" value="Cultural Day">
+                <label for="cd">Cultural Day</label><br>
+                <input type="checkbox" name="event" id="event4" value="Fitness Chalenge">
+                <label for="fc">Fitness Chalenge</label><br>
+                <input type="checkbox" name="event" id="event5" value="Programming Contest">
+                <label for="pc">Programming Contest</label><br>
+                <input type="checkbox" name="event" id="event6" value="Cybersecurity Talk">
+                <label for="ct">Cybersecurity Talk</label><br>
+                <input type="checkbox" name="event" id="event7" value="Interview skills Session">
+                <label for="iss">Interview skills Session</label><br>
+                <input type="checkbox" name="event" id="event8" value="Volunteer Day">
+                <label for="vd">Volunteer Day</label><br>
+            </form>
+            </div></div><br/>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
